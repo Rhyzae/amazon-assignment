@@ -1,0 +1,95 @@
+* {
+    /* border: 1px solid red; */
+}
+
+body {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signin-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.signin-box {
+    justify-items: center;
+    width: 22%;
+    border: 1px solid rgb(187, 187, 187);
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.signin-main-text {
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.signin-text {
+    color: gray;
+}
+
+.password-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.forgot-password{
+    margin: 0px;
+}
+
+.main-text {
+    padding: 2%;
+    margin-bottom: 20px;
+    width: 95%;
+}
+
+.button-text{
+    font-size: 1em;
+    color: grey;
+}
+
+.continue-button {
+    margin-left: 2%;
+    background-color: rgb(253, 191, 75);
+    border: 1px solid black;
+    font-size: .9em;
+}
+
+.create-button {
+    width: 21%;
+    height: 35px;
+    font-size: .9em;
+}
+
+
+
+
+
+
+
+
+
+.extra-text-container{
+    border-top: 2px solid rgb(187, 187, 187);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.extra-text{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    font-size: small;
+}
+
+.copyright-text {
+    text-align: center;
+    font-size: small;
+}
